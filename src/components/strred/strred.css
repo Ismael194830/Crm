@@ -1,0 +1,55 @@
+.stared-is
+{
+  margin-top: 50px;
+}
+.is-inboox { 
+    width: 315px;
+    height: 647px; 
+    padding: 10px;
+    border: 1px solid rgb(216, 207, 207);
+}
+
+.is-Select-All { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(216, 207, 207);
+    padding: 5px;
+    width  : 304px;
+}
+
+.is-meessge { 
+    padding: 10px;
+    width: 304px;
+    height: 150px;
+    border: 1px solid rgb(216, 207, 207);
+  }
+  .is-namee { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .is-starr { 
+    display: flex;
+    justify-content: space-around;
+  }
+  .is-starr span  { 
+    width: 245px ;
+    height: 40px;
+   }
+   .is-meessge p  { 
+    margin: 13px  0 ;
+    margin-left: 5px;
+    color: #000;
+    font-weight: 700;
+  }
+  .is-starr img { 
+    margin-bottom: 40px;
+    width: 24px;
+    height: 24px;
+  }
+  .is-meessge input { 
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    }

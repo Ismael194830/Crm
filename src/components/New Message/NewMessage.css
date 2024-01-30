@@ -1,0 +1,139 @@
+.is-newMessage {
+    width: 606px;
+    height: 705px;
+    border: 1px solid gray;
+}
+
+.newmeesge-bar {
+    width: 606px;
+    height: 61px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color-border-weak, #CACDD8);
+    background: var(--background-primary-color-background-primary-stronger, #030B5D);
+    
+}
+
+.newmeesge-bar p {
+    color: var(--background-color-background-body, #FFF);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.is-perant {
+    padding: 16px 27px;
+}
+
+.to {
+    color: var(--text-color-text, #121C2D);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 12px;
+
+}
+
+.name-send {
+    padding: 5px;
+    width: max-content;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 12px;
+    background: var(--background-primary-color-background-primary-weakest, #EBF4FF);
+}
+
+.names-send {
+
+    display: flex;
+    margin-left: 12px;
+    gap: 4px;
+}
+
+.is-tosend {
+    width: 552px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+
+.cercle-close {
+    margin-right: 8px;
+}
+
+.Recipients {
+    width: 552px;
+    height: 36px;
+    display: flex;
+    padding: 8px 12px;
+    align-items: flex-start;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.Subject {
+    width: 552px;
+    height: 36px;
+    display: flex;
+    padding: 8px 12px;
+    align-items: flex-start;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+
+.content-messge {
+    width: 606px;
+    height: 291px;
+    padding: 24px 27px 0 27px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+.is-tools {
+    padding: 16px;
+    width: 606px;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.is-tools .imges button {
+    border-radius: 4px;
+    border: 1px solid var(--border-primary-color-border-primary, #0263E0);
+    background: var(--background-primary-color-background-primary, #0263E0);
+    color: var(--text-inverse-color-text-inverse, #FFF);
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 8px 12px;
+
+}
+ .is-tools .imges { 
+   display: flex;
+   gap: 12px;
+ }
+.is-tools .imges img { 
+    width: 28px;
+    height: 28px;
+} 

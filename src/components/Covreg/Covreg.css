@@ -1,0 +1,95 @@
+
+.covreg { 
+    width: 1063px;
+    height: 702px;
+}
+.parant { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.is-lift , .is-scond , .is-thred { 
+    width:20vw ; 
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 16px;
+}
+
+.is-lift h2 { 
+ color: #121C2D;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; 
+}
+.is-lift p , .is-scond p , .is-thred p    { 
+    margin: 10px 0 ;
+    color:  #121C2D;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+}
+.is-lift span , .is-scond span , .is-thred span  { 
+    color: #121C2D;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.is-textaria { 
+    margin-left: 16px;
+}
+
+ .is-textaria p { 
+    color:  #121C2D;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+    margin: 10px 0;
+
+ }
+ .is-textaria  textarea { 
+    width: 1060px;
+    height: 76px; 
+ }
+ .is-buottn { 
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-left: 16px;
+  
+ }
+ .is-buottn #is-btn1 { 
+   width: 92px;
+   height: 36px;
+   display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    color: red;
+    border:  1px solid red;
+    border-radius:  5px;
+    background-color: white;
+    cursor: pointer;
+ }
+ .is-buottn #is-btn2 { 
+   padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid  #0263E0;
+    background:  #0263E0;
+    color: white;
+    cursor: pointer;
+ }
